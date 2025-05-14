@@ -1,2 +1,3 @@
 #!/bin/bash
-bash scripts/base_run.sh -s "LinuxOrWSL" -w 4 -m 19530 -q 8777 -c -o -b 'https://api.openai.com/v1' -k 'sk-xxx' -n 'gpt-3.5-turbo-1106' -l '4096'
+#bash scripts/base_run.sh -s "LinuxOrWSL" -w 4 -m 19530 -q 8777 -c -o -b 'https://api.openai.com/v1' -k 'sk-xxx' -n 'gpt-3.5-turbo-1106' -l '4096'
+bash scripts/base_run.sh -s "LinuxOrWSL" -w 4 -m 19530 -q 8777 -c -o -b 'https://api.ppinfra.com/v3/openai' -k 'sk__iBNUHppBb7OKrn2evjEn34NCfTC18qaClwYWiqVa7s' -n 'deepseek/deepseek-r1/community' -l '4096'
