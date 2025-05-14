@@ -10,7 +10,7 @@ torch==2.1.2
 torchvision==0.16.2
 transformers==4.36.2
 # vllm==0.3.3
-openai==1.12.0
+openai==1.55.3
 concurrent-log-handler==0.9.25
 sentencepiece==0.1.99
 tiktoken==0.6.0
